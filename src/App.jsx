@@ -23,7 +23,7 @@ function handleSubmit() {
     submited === false ? (
        <CardInicial handleMudarNotaAvaliacao={handleMudarNotaAvaliacao} handleSubmit={handleSubmit} />
     ) : (
-      <CardFinal notaAvaliacao={notaAvaliacao} />
+      <CardFinal notaAvaliacao= {notaAvaliacao} />
     )
   )
 }
